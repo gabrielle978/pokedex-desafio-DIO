@@ -151,18 +151,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(129, 122, 122);
+    background-color: rgb(174, 255, 224);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(94, 92, 92, 0.5);
     z-index: 1000;
-    border: 1px solid;
-    border-color: #5f5c5c;
+    border: 3px solid;
+    border-color: #007d76;
     text-transform: capitalize;
     width: 20rem;
     height: 30rem;
-    background-image: url('../img/background.png'); 
-    background-repeat: no-repeat; 
     background-position: bottom center; 
     background-size: cover; 
     display: flex;
@@ -179,16 +177,16 @@
     visibility: visible;
 }
 
-.modal-detail img {
+.DetailModal img {
     max-width: 100%; 
-    max-height: 15rem; 
+    max-height: 13rem; 
     width: auto; 
     height: auto; 
-    margin-top: auto; 
+    margin-top:4rem; 
     filter: drop-shadow(-4px 4px 20px rgba(0, 0, 0, 1));;
 }
 
-.modal-content {
+.CardContent {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,14 +199,14 @@
     cursor: pointer;
     padding: 5px;
     font-size: 1.25rem;
-    color: #333;
-    background: #f8f8f8;
-    border-radius: 10%;
+    color: #ffffff;
+    background: #ff0000;
+    border-radius: 20%;
     z-index: 1001;  
 }
 
 .close-button:hover {
-    background: #e0e0e0;
+    background: #909090;
 }
 
 @media screen and (min-width:380px){
